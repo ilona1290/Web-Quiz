@@ -1,0 +1,86 @@
+﻿@model QuizMVC.Application.CategoryAndQuestionForAdminVm.DetailsOfQuestionAdminVm
+
+@{
+    ViewData["Title"] = "DetailsOfQuestion";
+}
+
+<center><h1 style="color:lightcoral">Szczegóły wybranego pytania</h1></center>
+@Html.ActionLink("Edytuj to pytanie", "EditQuestion", new { id = Model.Id}, new { @class = "btn btn-info btn-group-sm" })
+
+<p><h5>Treść pytania:</h5>@Html.DisplayFor(model => model.QuestionText)</p>
+<p><h5>Kategoria:</h5>@Html.DisplayFor(model => model.CategoryText)</p>
+<div>
+    <p><h5>Czy zaakceptowano?</h5></p>
+    @if (Model.IsAccepted == true)
+    {
+        <p>&#10004;</p>
+    }
+    else
+    {
+        @Html.ActionLink("Akceptuj", "AcceptQuestion", new { id = Model.Id }, new { @class = "btn btn-success" })
+    }
+</div><br />
+
+<div>
+    @Html.ActionLink("Dodaj dodatkowy wariant odpowiedzi do tego pytania", "AddExtraAnswersToExistingQuestion", new { idQuestion = Model.Id }, new { @class = "btn btn-primary btn-lg" })
+</div>
+<table class="table">
+    <tr class="table-success">
+        <th>
+            Treść wariantu odpowiedzi
+        </th>
+        <th>
+            <center>
+                Czy wariant jest poprawną odpowiedzią na pytanie?
+            </center>
+        </th>
+        <th>
+            <center>
+                Czy wariant odpowiedzi został zaakceptowany?
+            </center>
+        </th>
+        <th>
+            <center>Usunąć ten wariant?</center>
+        </th>
+    </tr>
+    @foreach (var item in Model.Answers)
+    {
+        <tr class="table-warning">
+            <td>
+                @Html.DisplayFor(modelItem => item.AnswerText)
+            </td>
+            <td>
+                <center>
+                    @if (item.IsCorrect == true)
+                    {
+                        <p>&#10004;</p>
+                    }
+                    else
+                    {
+                        <p class="font-weight-bolder" style="color:red">X</p>
+                    }
+                </center>
+            </td>
+            <td>
+                <center>
+                    @if (item.IsAccepted == true)
+                    {
+                        <p>&#10004;</p>
+                    }
+                    else
+                    {
+                        @Html.ActionLink("Akceptuj", "AcceptAnswer", new { id = item.Id }, new { @class = "btn btn-success" })
+                    }
+                </center>
+            </td>
+            <td>
+                <center>
+                    @Html.ActionLink("Usuń", "DeleteAnswer", new { id = item.Id }, new { @class = "btn btn-danger" })
+                </center>
+            </td>
+        </tr>
+    }
+</table>
+<div>
+    <a class="btn btn-danger" asp-action="ShowQuestions">Powrót do listy z pytaniami</a>
+</div>

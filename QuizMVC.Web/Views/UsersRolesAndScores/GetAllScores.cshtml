@@ -1,0 +1,69 @@
+﻿@model QuizMVC.Application.UsersRolesAndScoresVm.ScoresVm
+
+
+<center><h1 style="color:darkgoldenrod">Najlepsze wyniki</h1></center>
+<h4 style="color:mediumpurple">Najlepszy wynik to ilość pytań, na które dany użytkownik odpowiedział poprawnie jednym ciagiem.</h4>
+
+<form asp-action="GetAllScores" asp-controller="UsersRolesAndScores" method="post">
+    <div class="form-group ">
+        <div>
+            <label class="font-weight-bolder">Wyszukiwarka nazw użytkownika</label>
+            <input type="text" class="form-control" asp-for="SearchString" name="searchString" id="searchString" />
+        </div>
+        <div>
+            <br />
+            <input class="btn btn-success btn-group-sm" type="submit" value="Wyszukaj" />
+        </div>
+    </div>
+    <table class="float-right">
+        <tr>
+            @for (int i = 1; i <= Math.Ceiling(Model.Count / (double)Model.PageSize); i++)
+            {
+                <td>
+                    @if (i != Model.CurrentPage)
+                    {
+                        <a class="page-link" style="color:dodgerblue" href="javascript:PagerClick(@i)">@i</a>
+                    }
+                    else
+                    {
+                        <span class="page-link active btn-outline-danger" style="color:white">@i</span>
+                    }
+                </td>
+            }
+        </tr>
+    </table>
+    <input type="hidden" name="pageNo" id="pageNo" />
+    <input type="hidden" name="pageSize" id="pageSize" value="4" />
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th><center>Miejsce w rankingu</center></th>
+                <th><center>Nazwa użytkownika</center></th>
+                <th><center>Najlepszy wynik</center></th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.BestResults.Count; i++)
+            {
+                <tr>
+                    <td><center>@Html.DisplayFor(modelItem => Model.BestResults[i].Place)</center></td>
+                    <td><center>@Html.DisplayFor(modelItem => Model.BestResults[i].UserLogin)</center></td>
+                    <td><center>@Html.DisplayFor(modelItem => Model.BestResults[i].BestResult)</center></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>
+<div>
+    <a class="btn btn-warning" asp-controller="Home" asp-action="ShowMenuForUser">Powrót do menu głównego</a>
+</div>
+@section Scripts
+{
+    <script type="text/javascript">
+        function PagerClick(index) {
+            document.getElementById("pageNo").value = index;
+            document.forms[1].submit();
+        }
+    </script>
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

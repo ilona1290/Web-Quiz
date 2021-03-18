@@ -1,0 +1,35 @@
+﻿@model QuizMVC.Application.CategoryAndQuestionVm.ResultVm
+
+@{
+    ViewData["Title"] = "ManageScores";
+}
+
+@if (Model.IsGood == true)
+{
+    <br />
+    <br />
+    <center>
+        <h2 class="display-4" style="color:green">Gratulacje odpowiedziałeś/aś dobrze na to pytanie</h2><br />
+        <h2 class="display-4" style="color:green">Odpowiedziałeś/aś na @Model.CurrentResult pytań z rzędu.</h2>
+        <h2>
+            <a class="btn btn-success btn-lg" asp-controller="CategoryAndQuestion" asp-action="ShowQuestion">Następne pytanie</a>
+        </h2>
+    </center>
+
+}
+else
+{
+    <br />
+    <br />
+    <center>
+        <h2 class="display-4" style="color:red">Niestety to zła odpowiedź.</h2>
+        <h4>
+            <a class="btn btn-danger btn-lg" asp-controller="CategoryAndQuestion" asp-action="ShowCategories">Spróbuj jeszcze raz</a>
+        </h4>
+        <br />
+        <h4>
+            <a class="btn btn-dark btn-lg" asp-controller="Home" asp-action="ShowMenuForUser">Powrót do menu głównego</a>
+        </h4>
+    </center>
+
+}

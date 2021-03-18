@@ -1,0 +1,76 @@
+﻿@model QuizMVC.Application.CategoryAndQuestionForAdminVm.AddAndEditQuestionAndAnswerAdminVm
+
+@{
+    ViewData["Title"] = "EditQuestion";
+}
+
+<center><h1 class="font-weight-bolder" style="color:maroon">Edytuj pytanie</h1></center>
+
+<hr />
+<div class="row">
+    <form asp-action="EditQuestion">
+        <div class="col-md-12">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input type="hidden" asp-for="Id" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="QuestionText" class="control-label font-weight-bolder" style="color:chocolate">Treść pytania</label>
+                <input asp-for="QuestionText" class="form-control" />
+                <span asp-validation-for="QuestionText" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label font-weight-bolder" style="color:darkblue">Kategoria dla dodawanego pytania:</label>
+                <select asp-for="CategoryId" asp-items="@(new SelectList(Model.Categories.Categories,"Id","Name"))" class="custom-select"></select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-row">
+                <div class="col-1">
+                    <label asp-for="IsAccepted" class="control-label font-weight-bolder" style="color:green">Akceptujesz?</label>
+                </div>
+                <div class="col-1">
+                    <input type="checkbox" asp-for="IsAccepted" class="form-control" />
+                </div>
+                <span asp-validation-for="IsAccepted" class="text-danger"></span>
+            </div>
+            <h3 style="color:darkmagenta">Edytuj warianty odpowiedzi. W pierwszej kolumnie kwadracików, zaznacz ten, który jest przy poprawnej odpowiedzi.</h3>
+        </div>
+        <div class="col-md-8">
+            <div class="form-row">
+                @for (int i = 0; i < Model.Answers.Count; i++)
+                {
+                    <div class="form-group">
+                        <input type="hidden" asp-for="Answers[i].Id" class="form-control" />
+                    </div>
+                    <div class="col-6">
+                        <label asp-for="Answers[i].AnswerText" class="text-hide"></label>
+                        <input type="text" asp-for="Answers[i].AnswerText" class="form-control" />
+                    </div>
+                    <div class="col-1">
+                        <label asp-for="Answers[i].IsCorrect" class="text-hide"> </label>
+                        <input type="checkbox" asp-for="Answers[i].IsCorrect" class="form-control" />
+                    </div>
+                    <div class="col-1">
+                        <label asp-for="Answers[i].IsAccepted" class="font-weight-bolder" style="color:forestgreen">Akceptujesz?</label>
+                        <input type="checkbox" asp-for="Answers[i].IsAccepted" class="form-control" />
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="form-group">
+            <br />
+            <input type="submit" value="Zapisz zmiany" class="btn btn-warning" />
+        </div>
+    </form>
+    <div>
+        @Html.ActionLink("Powrót do panelu pytania", "DetailsOfQuestion", new { id = Model.Id }, new { @class = "btn btn-danger" })
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+}
+

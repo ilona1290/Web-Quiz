@@ -1,0 +1,18 @@
+﻿@if (!User.IsInRole("User"))
+{
+    <h3 style="color:firebrick">Wybierz menu, do którego chcesz przejść:</h3>
+    <br />
+    <br />
+    <br />
+    <center>
+        <div class="btn btn-secondary btn-lg"><h2><a style="color:white" class="text-decoration-none" asp-controller="Home" asp-action="ShowMenuForAdmin">Menu dla administratora</a></h2></div><br /><br />
+        <div class="btn btn-info btn-lg"><h2><a style="color:white" class="text-decoration-none" asp-controller="Home" asp-action="ShowMenuForUser">Menu dla użytkownika</a></h2></div>
+    </center>
+    @if (User.IsInRole("SuperAdmin"))
+    {
+        <br />
+        <center>
+            <div class="btn btn-success btn-lg"><h2><a style="color:white" class="text-decoration-none" asp-controller="UsersRolesAndScores" asp-action="ManageUsersRoles">Panel zarządzania użytkownikami</a></h2></div>
+        </center>
+    }
+}

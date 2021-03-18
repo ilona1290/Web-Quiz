@@ -1,0 +1,40 @@
+﻿@model QuizMVC.Application.CategoryAndQuestionVm.QuestionVm
+
+@{
+    ViewData["Title"] = "ShowQuestion";
+}
+
+@if (Model.Category != "empty")
+{
+    <center><h1 style="color:blueviolet">Odpowiedz na pytanie z kategorii @Model.Category</h1></center>
+
+    <form>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="font-weight-bolder" style="color:crimson">
+                        <h3>@Html.DisplayFor(model => model.QuestionText)</h3>
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="col-md-7">
+                        @foreach (var item in Model.Answers)
+                        {
+                            @Html.ActionLink(item.AnswerText, "CheckAnswer", new { IdOfSelectedAnswer = item.Id }, new { @class = "btn btn-outline-primary btn-lg" })<br /><br />
+                        }
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+}
+else
+{
+    <center><h1 style="color:blueviolet">Gratulacje!!! Odpowiedziałeś/aś poprawnie na wszystkie dostępne pytania. Poczekaj na nowy zestaw pytań.</h1></center><br />
+    <center><a class="btn btn-success btn-lg" asp-controller="UsersRolesAndScores" asp-action="GetAllScores">Pokaż tabele najlepszych wyników</a></center><br />
+    <center><a class="btn btn-primary btn-lg" asp-controller="Home" asp-action="ShowMenuForUser">Menu główne</a></center>
+
+}

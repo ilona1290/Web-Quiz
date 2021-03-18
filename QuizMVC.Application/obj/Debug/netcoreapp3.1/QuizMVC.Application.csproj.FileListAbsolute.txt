@@ -1,0 +1,84 @@
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 6 - Aplikacje webowe w ASP.NET Core\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.deps.json
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 6 - Aplikacje webowe w ASP.NET Core\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 6 - Aplikacje webowe w ASP.NET Core\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 6 - Aplikacje webowe w ASP.NET Core\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Domain.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 6 - Aplikacje webowe w ASP.NET Core\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Domain.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 6 - Aplikacje webowe w ASP.NET Core\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 6 - Aplikacje webowe w ASP.NET Core\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 6 - Aplikacje webowe w ASP.NET Core\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.AssemblyInfo.cs
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 6 - Aplikacje webowe w ASP.NET Core\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 6 - Aplikacje webowe w ASP.NET Core\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csproj.CopyComplete
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 6 - Aplikacje webowe w ASP.NET Core\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 6 - Aplikacje webowe w ASP.NET Core\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 7 - Bazy danych\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.deps.json
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 7 - Bazy danych\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 7 - Bazy danych\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 7 - Bazy danych\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Domain.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 7 - Bazy danych\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Domain.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 7 - Bazy danych\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 7 - Bazy danych\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 7 - Bazy danych\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.AssemblyInfo.cs
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 7 - Bazy danych\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 7 - Bazy danych\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csproj.CopyComplete
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 7 - Bazy danych\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 7 - Bazy danych\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 8 - Od widoku do modelu\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.deps.json
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 8 - Od widoku do modelu\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 8 - Od widoku do modelu\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 8 - Od widoku do modelu\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Domain.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 8 - Od widoku do modelu\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Domain.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 8 - Od widoku do modelu\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 8 - Od widoku do modelu\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 8 - Od widoku do modelu\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.AssemblyInfo.cs
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 8 - Od widoku do modelu\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 8 - Od widoku do modelu\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csproj.CopyComplete
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 8 - Od widoku do modelu\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 8 - Od widoku do modelu\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 9 - Obsługa użytkowników\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.deps.json
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 9 - Obsługa użytkowników\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 9 - Obsługa użytkowników\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 9 - Obsługa użytkowników\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Domain.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 9 - Obsługa użytkowników\Praca domowa\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Domain.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 9 - Obsługa użytkowników\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 9 - Obsługa użytkowników\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 9 - Obsługa użytkowników\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.AssemblyInfo.cs
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 9 - Obsługa użytkowników\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 9 - Obsługa użytkowników\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csproj.CopyComplete
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 9 - Obsługa użytkowników\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 9 - Obsługa użytkowników\Praca domowa\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 10 - REST API i integracja systemów\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.deps.json
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 10 - REST API i integracja systemów\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 10 - REST API i integracja systemów\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 10 - REST API i integracja systemów\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Domain.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 10 - REST API i integracja systemów\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Domain.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 10 - REST API i integracja systemów\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 10 - REST API i integracja systemów\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 10 - REST API i integracja systemów\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.AssemblyInfo.cs
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 10 - REST API i integracja systemów\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 10 - REST API i integracja systemów\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csproj.CopyComplete
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 10 - REST API i integracja systemów\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 10 - REST API i integracja systemów\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 11 - Wzorce projektowe i SOLIDne podstawy\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.deps.json
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 11 - Wzorce projektowe i SOLIDne podstawy\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 11 - Wzorce projektowe i SOLIDne podstawy\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 11 - Wzorce projektowe i SOLIDne podstawy\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Domain.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 11 - Wzorce projektowe i SOLIDne podstawy\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Domain.pdb
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 11 - Wzorce projektowe i SOLIDne podstawy\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 11 - Wzorce projektowe i SOLIDne podstawy\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 11 - Wzorce projektowe i SOLIDne podstawy\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.AssemblyInfo.cs
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 11 - Wzorce projektowe i SOLIDne podstawy\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 11 - Wzorce projektowe i SOLIDne podstawy\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csproj.CopyComplete
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 11 - Wzorce projektowe i SOLIDne podstawy\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.dll
+C:\Users\HP\Desktop\Zostań programistą ASP.NET\Tydzień 11 - Wzorce projektowe i SOLIDne podstawy\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.pdb
+C:\Users\HP\Desktop\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.deps.json
+C:\Users\HP\Desktop\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.dll
+C:\Users\HP\Desktop\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Application.pdb
+C:\Users\HP\Desktop\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Domain.dll
+C:\Users\HP\Desktop\QuizMVC\QuizMVC.Application\bin\Debug\netcoreapp3.1\QuizMVC.Domain.pdb
+C:\Users\HP\Desktop\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.AssemblyInfo.cs
+C:\Users\HP\Desktop\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.csproj.CopyComplete
+C:\Users\HP\Desktop\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.dll
+C:\Users\HP\Desktop\QuizMVC\QuizMVC.Application\obj\Debug\netcoreapp3.1\QuizMVC.Application.pdb

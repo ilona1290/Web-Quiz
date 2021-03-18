@@ -1,0 +1,44 @@
+﻿@model QuizMVC.Application.CategoryAndQuestionForAdminVm.AnswerToAdminVm
+
+@{
+    ViewData["Title"] = "AddExtraAnswersToExistingQuestion";
+}
+
+<center><h1 style="color:cornflowerblue">Dodawanie dodatkowego wariantu odpowiedzi</h1></center>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddExtraAnswersToExistingQuestion">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input type="hidden" asp-for="Id"/>
+            </div>
+            <div>
+                <label asp-for="AnswerText" class="control-label font-weight-bolder">Treść wariantu</label>
+                <input asp-for="AnswerText" class="form-control" />
+                <span asp-validation-for="AnswerText" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="QuestionId" class="form-control" />
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="hidden" class="form-check-input" asp-for="IsAccepted" />
+                </label>
+            </div>
+            <div>
+                <label>Czy wariant jest poprawną odpowiedzią?</label>
+                <input type="checkbox" asp-for="IsCorrect" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Dodaj" class="btn btn-outline-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    @Html.ActionLink("Powrót do pytania", "DetailsOfQuestion", new { id = Model.QuestionId }, new { @class = "btn btn-warning" })
+</div>
+

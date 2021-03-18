@@ -1,0 +1,25 @@
+﻿@model QuizMVC.Application.CategoryAndQuestionVm.QuestionVm
+
+@{
+    ViewData["Title"] = "ShowNewQuestion";
+}
+
+<center><h1 class="font-weight-bolder" style="color:blue">Wybieranie poprawnego wariantu odpowiedzi</h1></center>
+
+
+<p><h3 class="font-weight-bolder">Treść pytania:</h3><h4 style="color:darkmagenta">@Html.DisplayFor(model => model.QuestionText)</h4></p>
+<br />
+<p><h3 class="font-weight-bolder" style="color:firebrick">Kategoria: @Html.DisplayFor(model => model.Category)</h3></p>
+<br />
+<h3 style="color:indigo">Kliknij na wariant, który jest poprawną odpowiedzią na nowo dodane przez Ciebie pytanie.</h3>
+
+@foreach (var item in Model.Answers)
+{
+    <center>
+        <h3>@Html.ActionLink(item.AnswerText, "ChooseGoodAnswer", new { id = item.Id }, new { @class = "btn btn-success btn-lg" }) </h3>
+    </center>
+}
+
+
+
+

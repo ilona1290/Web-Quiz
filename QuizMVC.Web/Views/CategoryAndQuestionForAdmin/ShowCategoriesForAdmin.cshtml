@@ -1,0 +1,62 @@
+﻿@model QuizMVC.Application.CategoryAndQuestionForAdminVm.ListOfCategoriesAdminVm
+
+@{
+    ViewData["Title"] = "ShowCategoriesForAdmin";
+}
+
+<center><h1 style="color:darkorchid">Kategorie</h1></center>
+
+<p>
+    <a class="btn btn-outline-primary" asp-action="AddCategory">Dodaj nową kategorię</a>
+</p>
+<table class="table">
+    <thead class="table-success">
+        <tr>
+            <th>
+                Nazwa kategorii
+            </th>
+            <th>
+                <center>
+                    Akcje do wykonania na kategorii
+                </center>
+            </th>
+            <th>
+                <center>
+                    Czy zaakceptowano?
+                </center>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody class="table-light">
+        @foreach (var item in Model.Categories)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    <center>
+                        @Html.ActionLink("Edytuj", "EditCategory", new { id = item.Id }, new { @class = "btn btn-info" })
+                        @Html.ActionLink("Usuń", "DeleteCategory", new { id = item.Id }, new { @class = "btn btn-danger" })
+                        @if (item.IsAccepted == false)
+                        {
+                            @Html.ActionLink("Akceptuj", "AcceptCategory", new { id = item.Id }, new { @class = "btn btn-success" } )
+                        }
+                    </center>
+                </td>
+                <td>
+                    <center>
+                        @if (item.IsAccepted == true)
+                        {
+                            <p>&#10004;</p>
+                        }
+                    </center>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div>
+    <a asp-controller="Home" asp-action="ShowMenuForAdmin" class="btn btn-outline-warning">Powrót do menu głównego</a>
+</div>

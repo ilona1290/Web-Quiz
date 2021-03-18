@@ -1,0 +1,125 @@
+﻿@model QuizMVC.Application.CategoryAndQuestionForAdminVm.ListOfQuestionAdminVm
+
+@{
+    ViewData["Title"] = "ShowQuestions";
+}
+
+<center><h1 class="display-4 font-weight-bold" style="color:darkorchid">Pytania</h1></center>
+
+<p>
+    <a class="btn btn-success btn-group-sm" asp-action="AddQuestion">Dodaj nowe pytanie</a>
+</p>
+<h6>
+    Aby zobaczyć przypisane danemu pytania warianty odpowiedzi należy wejść stronę ze szczegółami pytania.
+    Tak samo, akceptowanie pytania i wariantów odpowiedzi znajduje się na stronie ze szczegółami danego pytania.
+    Link do edytowania pytania, przypisanej mu kategorii i wariantów odpowiedzi również znajduje się na stronie ze szczegółami.
+</h6>
+<p style="color : red">Uwaga! Jeśli usuniesz na tej stronie pytanie, usuniesz również przypisane do niego warianty odpowiedzi.</p>
+
+<form asp-action="ShowQuestions" asp-controller="CategoryAndQuestionForAdmin" method="post">    
+    <div class="form-group ">
+        <div>
+            <label class="font-weight-bolder">Wyszukiwarka</label>
+            <input type="text" class="form-control" asp-for="SearchString" name="searchString" id="searchString" />
+        </div><br />
+        <div>
+            <label class="font-weight-bolder"> Wybierz kategorie po której chcesz filtrować</label>
+            <select asp-for="CategoryId" asp-items="@(new SelectList(Model.Categories.Categories, "Id", "Name"))" class="custom-select"></select>
+        </div>
+        <div>
+            <br />
+            <input class="btn btn-danger btn-group-sm" type="submit" value="Wyszukaj" />
+        </div>
+    </div>
+    <div class="row">
+        <table class="table">
+            <thead class="table-primary">
+                <tr>
+                    <th>
+                        Pytanie
+                    </th>
+                    <th>
+                        <center>
+                            Kategoria
+                        </center>
+                    </th>
+                    <th>
+                        <center>
+                            Akcje do wykonania na pytaniu
+                        </center>
+                    </th>
+                    <th>
+                        <center>
+                            Czy zaakceptowano?
+                        </center>
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="table-warning">
+                @foreach (var item in Model.Questions)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.QuestionText)
+                        </td>
+                        <td>
+                            <center>
+                                @Html.DisplayFor(modelItem => item.CategoryText)
+                            </center>
+                        </td>
+                        <td>
+                            <center>
+                                @Html.ActionLink("Zobacz szczegóły pytania", "DetailsOfQuestion", new { id = item.Id }, new { @class = "btn btn-primary" })
+                                @Html.ActionLink("Usuń", "DeleteQuestion", new { id = item.Id }, new { @class = "btn btn-danger" })
+                            </center>
+                        </td>
+                        <td>
+                            <center>
+                                @if (item.IsAccepted == true)
+                                {
+                                    <p>&#10004;</p>
+                                }
+                            </center>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <table class="float-right">
+            <tr>
+                @for (int i = 1; i <= Math.Ceiling(Model.Count / (double)Model.PageSize); i++)
+                {
+                    <td>
+                        @if (i != Model.CurrentPage)
+                        {
+                            <a class="page-link" style="color:dodgerblue" href="javascript:PagerClick(@i)">@i</a>
+                        }
+                        else
+                        {
+                            <span class="page-link active btn-outline-success" style="color:white">@i</span>
+                        }
+                    </td>
+                }
+            </tr>
+        </table>
+        <input type="hidden" name="pageNo" id="pageNo" />
+        <input type="hidden" name="pageSize" id="pageSize" value="7" />
+    </div>
+</form>
+<div>
+    <a class="btn btn-warning" asp-controller="Home" asp-action="ShowMenuForAdmin">Powrót do menu głównego</a>
+</div>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        function PagerClick(index) {
+            document.getElementById("pageNo").value = index;
+            document.forms[1].submit();
+        }
+    </script>
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
